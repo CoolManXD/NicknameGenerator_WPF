@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NicknameGeneratorForWow", "NicknameGeneratorForWow\NicknameGeneratorForWow.csproj", "{BD905B9C-A08C-47D9-B6E4-E05A2BCE7A32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD905B9C-A08C-47D9-B6E4-E05A2BCE7A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD905B9C-A08C-47D9-B6E4-E05A2BCE7A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD905B9C-A08C-47D9-B6E4-E05A2BCE7A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD905B9C-A08C-47D9-B6E4-E05A2BCE7A32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2B974DE-4371-47A1-BAF0-9E171FF2043E}
+	EndGlobalSection
+EndGlobal

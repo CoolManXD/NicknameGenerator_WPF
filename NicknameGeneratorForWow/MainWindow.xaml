@@ -1,0 +1,68 @@
+﻿<Window x:Class="NicknameGeneratorForWow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NicknameGeneratorForWow"
+        mc:Ignorable="d"
+        Title="NickGenenerator" Height="600" Width="500" Icon="images/icon.png"
+        ResizeMode="CanResizeWithGrip"
+        MaxHeight="750" MaxWidth="600"
+        MinHeight="500" MinWidth="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.4*"></ColumnDefinition>
+            <ColumnDefinition Width="0.6*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.2*"></RowDefinition>
+                <RowDefinition Height="0.4*"></RowDefinition>
+                <RowDefinition Height="0.4*"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <!-- Выбор рассы -->
+            <Expander Grid.Row="0" Header="Your choice">
+                <StackPanel Orientation="Horizontal">
+                    <Button>
+                        <Image Source="images/elfs.png"></Image>
+                    </Button>
+                    <Button>
+                        <Image Source="images/horde2.png"></Image>
+                    </Button>
+                </StackPanel>
+            </Expander>
+
+            <!-- Параметры для генерации никнейма-->
+            <Viewbox  Grid.Row="1">
+            <StackPanel>
+                
+                <GroupBox Header="The first letter">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock></TextBlock>
+                        <TextBox></TextBox>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Length">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>Min</TextBlock>
+                            <TextBox MaxLength="3"></TextBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>Max</TextBlock>
+                            <TextBox></TextBox>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                
+            </StackPanel>
+            </Viewbox>
+
+            <Image Grid.Row="2" Source="images/mainLogo.png"></Image>
+            
+        </Grid>
+    </Grid>
+</Window>

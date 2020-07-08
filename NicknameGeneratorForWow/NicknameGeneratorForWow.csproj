@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\alliance.png" />
+    <None Remove="images\elf1.png" />
+    <None Remove="images\elf2.png" />
+    <None Remove="images\elfs.png" />
+    <None Remove="images\horde1.png" />
+    <None Remove="images\horde2.png" />
+    <None Remove="images\icon.png" />
+    <None Remove="images\mainLogo.png" />
+    <None Remove="images\orc1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\alliance.png" />
+    <Content Include="images\mainLogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\elf1.png" />
+    <Content Include="images\elf2.png" />
+    <Content Include="images\elfs.png" />
+    <Content Include="images\horde1.png" />
+    <Content Include="images\horde2.png" />
+    <Content Include="images\icon.png" />
+    <Content Include="images\orc1.png" />
+  </ItemGroup>
+
+</Project>
