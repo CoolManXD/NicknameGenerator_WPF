@@ -5,64 +5,119 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NicknameGeneratorForWow"
         mc:Ignorable="d"
-        Title="NickGenenerator" Height="600" Width="500" Icon="images/icon.png"
+        Title="NickGenenerator" Height="750" Width="600" Icon="images/icon.png"
         ResizeMode="CanResizeWithGrip"
         MaxHeight="750" MaxWidth="600"
-        MinHeight="500" MinWidth="400">
+        MinHeight="500" MinWidth="400"
+        Style="{DynamicResource WindowThemeStyle}">
+
+    <Window.Resources>
+
+        <!-- Стили для текста-->
+        <Style x:Key="TextFamilyWeight">
+            <Setter Property="Control.FontFamily" Value="Century Schoolbook" />
+            <Setter Property="Control.FontWeight" Value="Medium" />
+        </Style>
+
+        <Style x:Key="RadioButtonText" BasedOn="{StaticResource TextFamilyWeight}">
+            <Setter Property="Control.FontSize" Value="20" />
+        </Style>
+
+        <Style x:Key="InputDataText" BasedOn="{StaticResource TextFamilyWeight}">
+            <Setter Property="Control.FontSize" Value="15" />
+        </Style>
+
+        <!-- Темы-->
+        <Style x:Key="WindowThemeStyle">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=orcChoice, Path=IsChecked}"
+                        Value="True">
+                    <Setter Property="Control.Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.5" >
+                                <GradientStop Color="LightGray" Offset="1"/>
+                                <GradientStop Color="Red" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+
+                <DataTrigger Binding="{Binding ElementName=elfChoice, Path=IsChecked}"
+                        Value="True">
+                    <Setter Property="Control.Background">
+                        <Setter.Value>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.5" >
+                                <GradientStop Color="LightGray" Offset="1"/>
+                                <GradientStop Color="Blue" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Setter.Value>
+                    </Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ImageThemeStyle" TargetType="{x:Type Image}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding ElementName=orcChoice, Path=IsChecked}" Value="True">
+                    <Setter Property="Source" Value="images/emblem_horde.png"/>
+                </DataTrigger>
+
+                <DataTrigger Binding="{Binding ElementName=elfChoice, Path=IsChecked}" Value="True">
+                    <Setter Property="Source" Value="images/emblem_alliance.png"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.4*"></ColumnDefinition>
             <ColumnDefinition Width="0.6*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+
+        <Grid  Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.2*"></RowDefinition>
-                <RowDefinition Height="0.4*"></RowDefinition>
+                <RowDefinition Height="0.2*"></RowDefinition>
+                <RowDefinition Height="0.2*"></RowDefinition>
                 <RowDefinition Height="0.4*"></RowDefinition>
             </Grid.RowDefinitions>
+
+            <!-- Лого -->
+            <Image Grid.Row="0" Source="images/mainLogo.png"></Image>
             
             <!-- Выбор рассы -->
-            <Expander Grid.Row="0" Header="Your choice">
-                <StackPanel Orientation="Horizontal">
-                    <Button>
-                        <Image Source="images/elfs.png"></Image>
-                    </Button>
-                    <Button>
-                        <Image Source="images/horde2.png"></Image>
-                    </Button>
-                </StackPanel>
-            </Expander>
-
-            <!-- Параметры для генерации никнейма-->
-            <Viewbox  Grid.Row="1">
-            <StackPanel>
-                
-                <GroupBox Header="The first letter">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock></TextBlock>
-                        <TextBox></TextBox>
-                    </StackPanel>
-                </GroupBox>
-
-                <GroupBox Header="Length">
+            <Viewbox Grid.Row="1" HorizontalAlignment="Left" Margin="15,0,0,0" >
+                <GroupBox Header="Your choise" Style="{StaticResource RadioButtonText}">
                     <StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock>Min</TextBlock>
-                            <TextBox MaxLength="3"></TextBox>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock>Max</TextBlock>
-                            <TextBox></TextBox>
-                        </StackPanel>
+                        <RadioButton x:Name="orcChoice" Margin="5,5,5,5" IsChecked="True">Orc</RadioButton>
+                        <RadioButton x:Name="elfChoice" Margin="5,5,5,5" >Elf</RadioButton>
                     </StackPanel>
                 </GroupBox>
-                
-            </StackPanel>
             </Viewbox>
 
-            <Image Grid.Row="2" Source="images/mainLogo.png"></Image>
-            
+            <!-- Параметры для генерации никнейма-->
+            <Viewbox Grid.Row="2">
+                <StackPanel Margin="5,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="0 0 5 0" Style="{StaticResource InputDataText}">The first letter:</TextBlock>
+                        <TextBox MaxLength="1" Width="15" Style="{StaticResource InputDataText}"></TextBox>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="0 0 5 0" Style="{StaticResource InputDataText}">Length:</TextBlock>
+                        <TextBox MaxLength="2" Width="20" Style="{StaticResource InputDataText}"></TextBox>
+                        <TextBlock FontSize="15"> -</TextBlock>
+                        <TextBox MaxLength="2" Width="20" Style="{StaticResource InputDataText}"></TextBox>
+                    </StackPanel>
+                </StackPanel>
+            </Viewbox>
+
+            <!-- Эмблема -->
+            <Image Grid.Row="3" Style="{DynamicResource ImageThemeStyle}" VerticalAlignment="Top"></Image>
         </Grid>
+
     </Grid>
 </Window>

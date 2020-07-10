@@ -11,6 +11,8 @@
     <None Remove="images\elf1.png" />
     <None Remove="images\elf2.png" />
     <None Remove="images\elfs.png" />
+    <None Remove="images\emblem_alliance.png" />
+    <None Remove="images\emblem_horde.png" />
     <None Remove="images\horde1.png" />
     <None Remove="images\horde2.png" />
     <None Remove="images\icon.png" />
@@ -20,6 +22,8 @@
 
   <ItemGroup>
     <Resource Include="images\alliance.png" />
+    <Content Include="images\emblem_alliance.png" />
+    <Content Include="images\emblem_horde.png" />
     <Content Include="images\mainLogo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
