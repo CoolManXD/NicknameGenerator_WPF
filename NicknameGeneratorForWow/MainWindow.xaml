@@ -9,7 +9,7 @@
         ResizeMode="CanResizeWithGrip"
         MaxHeight="750" MaxWidth="600"
         MinHeight="500" MinWidth="400"
-        Style="{DynamicResource WindowThemeStyle}">
+        Style="{StaticResource WindowThemeStyle}">
 
     <Window.Resources>
 
@@ -27,46 +27,17 @@
             <Setter Property="Control.FontSize" Value="15" />
         </Style>
 
-        <!-- Темы-->
-        <Style x:Key="WindowThemeStyle">
-            <Style.Triggers>
-                <DataTrigger Binding="{Binding ElementName=orcChoice, Path=IsChecked}"
-                        Value="True">
-                    <Setter Property="Control.Background">
-                        <Setter.Value>
-                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.5" >
-                                <GradientStop Color="LightGray" Offset="1"/>
-                                <GradientStop Color="Red" Offset="0"/>
-                            </LinearGradientBrush>
-                        </Setter.Value>
-                    </Setter>
-                </DataTrigger>
-
-                <DataTrigger Binding="{Binding ElementName=elfChoice, Path=IsChecked}"
-                        Value="True">
-                    <Setter Property="Control.Background">
-                        <Setter.Value>
-                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,0.5" >
-                                <GradientStop Color="LightGray" Offset="1"/>
-                                <GradientStop Color="Blue" Offset="0"/>
-                            </LinearGradientBrush>
-                        </Setter.Value>
-                    </Setter>
-                </DataTrigger>
-            </Style.Triggers>
+        <Style x:Key="OutputDataText" BasedOn="{StaticResource TextFamilyWeight}">
+            <Setter Property="Control.FontSize" Value="10" />
         </Style>
 
-        <Style x:Key="ImageThemeStyle" TargetType="{x:Type Image}">
-            <Style.Triggers>
-                <DataTrigger Binding="{Binding ElementName=orcChoice, Path=IsChecked}" Value="True">
-                    <Setter Property="Source" Value="images/emblem_horde.png"/>
-                </DataTrigger>
-
-                <DataTrigger Binding="{Binding ElementName=elfChoice, Path=IsChecked}" Value="True">
-                    <Setter Property="Source" Value="images/emblem_alliance.png"/>
-                </DataTrigger>
-            </Style.Triggers>
-        </Style>
+        <ControlTemplate TargetType="Button" x:Key="ButtonTemplate">
+            <Border Width="30" CornerRadius="3" BorderBrush="Black" BorderThickness="1"
+                                Background="LightGray"  >
+                <ContentControl FontSize="6" FontFamily="Century Schoolbook" 
+                                HorizontalAlignment="Center" VerticalAlignment="Center" Content="Generate" />
+            </Border>
+        </ControlTemplate>
 
     </Window.Resources>
 
@@ -78,6 +49,7 @@
 
 
         <Grid  Grid.Column="0">
+            
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.2*"></RowDefinition>
                 <RowDefinition Height="0.2*"></RowDefinition>
@@ -109,15 +81,36 @@
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="0 0 5 0" Style="{StaticResource InputDataText}">Length:</TextBlock>
                         <TextBox MaxLength="2" Width="20" Style="{StaticResource InputDataText}"></TextBox>
-                        <TextBlock FontSize="15"> -</TextBlock>
+                        <TextBlock FontSize="15"> - </TextBlock>
                         <TextBox MaxLength="2" Width="20" Style="{StaticResource InputDataText}"></TextBox>
                     </StackPanel>
                 </StackPanel>
             </Viewbox>
 
             <!-- Эмблема -->
-            <Image Grid.Row="3" Style="{DynamicResource ImageThemeStyle}" VerticalAlignment="Top"></Image>
+            <Image Grid.Row="3" Style="{StaticResource ImageEmblemThemeStyle}" VerticalAlignment="Top"></Image>
         </Grid>
 
+        <Grid Grid.Column="1">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"></RowDefinition>
+                <RowDefinition Height="0.6*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <!-- Поле и кнопка для генерации никнейма-->
+            <Viewbox Grid.Row="0" VerticalAlignment="Bottom">
+                <StackPanel Margin="0,0,5,5">
+
+                    <TextBox Width="75" IsReadOnly="True" Style="{StaticResource OutputDataText}"></TextBox>
+                    <Button Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}"/>
+
+                </StackPanel>
+            </Viewbox>
+
+            <!-- Биг фото -->
+            <Image Grid.Row="1" Style="{StaticResource ImageWarriorThemeStyle}" VerticalAlignment="Top"></Image>
+            
+        </Grid>
     </Grid>
 </Window>
