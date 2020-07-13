@@ -23,6 +23,8 @@ namespace NicknameGeneratorForWow
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new ApplicationViewModel();
         }
+
     }
 }
