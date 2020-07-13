@@ -19,10 +19,12 @@
             <Setter Property="Control.FontWeight" Value="Medium" />
         </Style>
 
+        <!-- Стили для текста RadioButton-->
         <Style x:Key="RadioButtonText" BasedOn="{StaticResource TextFamilyWeight}">
             <Setter Property="Control.FontSize" Value="20" />
         </Style>
 
+        <!-- Стили для текста полей входных данных-->
         <Style x:Key="InputDataText" BasedOn="{StaticResource TextFamilyWeight}">
             <Setter Property="Control.FontSize" Value="15" />
             <Style.Triggers>
@@ -35,16 +37,27 @@
             </Style.Triggers>
         </Style>
 
+        <!-- Стили для текста полей выходных данных-->
         <Style x:Key="OutputDataText" BasedOn="{StaticResource TextFamilyWeight}">
             <Setter Property="Control.FontSize" Value="10" />
         </Style>
 
+        <!-- Шаблон для кнопк-->
         <ControlTemplate TargetType="Button" x:Key="ButtonTemplate">
-            <Border Width="30" CornerRadius="3" BorderBrush="Black" BorderThickness="1"
-                                Background="LightGray"  >
+            <Border x:Name="GenerateButtonBorder" Width="30" CornerRadius="3" 
+                    BorderBrush="Black" BorderThickness="1" Background="LightGray"  >
                 <ContentControl FontSize="6" FontFamily="Century Schoolbook" 
                                 HorizontalAlignment="Center" VerticalAlignment="Center" Content="Generate" />
             </Border>
+            
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter TargetName="GenerateButtonBorder" Property="BorderBrush" Value="DarkBlue" />
+                </Trigger>
+                <Trigger Property="IsPressed" Value="true">
+                    <Setter TargetName="GenerateButtonBorder" Property="Background" Value="White" />
+                </Trigger>
+            </ControlTemplate.Triggers>
         </ControlTemplate>
 
     </Window.Resources>
@@ -116,7 +129,7 @@
                 <StackPanel Margin="0,0,5,5">
 
                     <TextBox x:Name="outputText" Width="75" IsReadOnly="True" Style="{StaticResource OutputDataText}"></TextBox>
-                    <Button Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}"/>
+                    <Button x:Name="GenerateButton" Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}"/>
 
                 </StackPanel>
             </Viewbox>
