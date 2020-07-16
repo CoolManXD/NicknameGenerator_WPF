@@ -25,6 +25,5 @@ namespace NicknameGeneratorForWow
             InitializeComponent();
             this.DataContext = new ApplicationViewModel();
         }
-
     }
 }

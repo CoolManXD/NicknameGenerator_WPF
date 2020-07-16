@@ -24,17 +24,13 @@ namespace NicknameGeneratorForWow
             get { return firstLetter; }
             set
             {
-                //if (char.IsLetter(value))
-                //    firstLetter = char.ToUpper(value);
                 firstLetter = char.ToUpper(value);
                 if (!char.IsLetter(value))
                 {
-                    // errors.Add("FirstLetter", "must be letter");
                     errors["FirstLetter"] = "must be letter";
                 }
                 else
                 {
-                    // errors.Add("FirstLetter", null);
                     errors["FirstLetter"] = null;
                 }
                 OnPropertyChanged("FirstLetter");
@@ -49,17 +45,14 @@ namespace NicknameGeneratorForWow
                
                 if (minLength < 5)
                 {
-                    // errors.Add("MinLength", "Minimum 5");
                     errors["MinLength"] = "Minimum 5";
                 }
                 else if (minLength > maxLength)
                 {
-                    // errors.Add("MinLength", "Min can't be more max");
                     errors["MinLength"] = "Min can't be more max";
                 }
                 else
                 {
-                    // errors.Add("MinLength", null);
                     errors["MinLength"] = null;
                 }
                 OnPropertyChanged("MinLength");
@@ -73,17 +66,14 @@ namespace NicknameGeneratorForWow
                 maxLength = value;
                 if (maxLength > 10)
                 {
-                    // errors.Add("MaxLength", "Maximum 10");
                     errors["MaxLength"] = "Maximum 10";
                 }
                 else if (minLength > maxLength)
                 {
-                    // errors.Add("MaxLength", "Min can't be more max");
                     errors["MaxLength"] = "Min can't be more max";
                 }
                 else
                 {
-                    // errors.Add("MaxLength", null);
                     errors["MaxLength"] = null;
                 }
                 OnPropertyChanged("MaxLength");
@@ -97,6 +87,7 @@ namespace NicknameGeneratorForWow
                 PropertyChanged(this, new PropertyChangedEventArgs(prop));
         }
 
+        // Валидация 
         Dictionary<string, string> errors;
         public string this[string columnName] => errors.ContainsKey(columnName) ? errors[columnName] : null;
         

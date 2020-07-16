@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<suffixes>
+  <suffix id="1">
+    <string>ae</string>
+  </suffix>
+  <suffix id="2">
+    <string>nae</string>
+  </suffix>
+  <suffix id="3">
+    <string>ael</string>
+  </suffix>
+  <suffix id="4">
+    <string>aer</string>
+  </suffix>
+  <suffix id="5">
+    <string>aera</string>
+  </suffix>
+  <suffix id="6">
+    <string>aias</string>
+  </suffix>
+  <suffix id="7">
+    <string>aia</string>
+  </suffix>
+  <suffix id="8">
+    <string>ah</string>
+  </suffix>
+  <suffix id="9">
+    <string>aha</string>
+  </suffix>
+  <suffix id="10">
+    <string>aith</string>
+  </suffix>
+  <suffix id="11">
+    <string>aira</string>
+  </suffix>
+  <suffix id="12">
+    <string>al</string>
+  </suffix>
+  <suffix id="13">
+    <string>la</string>
+  </suffix>
+  <suffix id="14">
+    <string>lae</string>
+  </suffix>
+  <suffix id="15">
+    <string>llae</string>
+  </suffix>
+  <suffix id="16">
+    <string>ali</string>
+  </suffix>
+  <suffix id="17">
+    <string>am</string>
+  </suffix>
+  <suffix id="18">
+    <string>ama</string>
+  </suffix>
+  <suffix id="19">
+    <string>an</string>
+  </suffix>
+  <suffix id="20">
+    <string>ana</string>
+  </suffix>
+  <suffix id="21">
+    <string>ani</string>
+  </suffix>
+  <suffix id="22">
+    <string>uanna</string>
+  </suffix>
+  <suffix id="23">
+    <string>ara</string>
+  </suffix>
+  <suffix id="24">
+    <string>ari</string>
+  </suffix>
+  <suffix id="25">
+    <string>aro</string>
+  </suffix>
+  <suffix id="26">
+    <string>as</string>
+  </suffix>
+  <suffix id="27">
+    <string>ash</string>
+  </suffix>
+  <suffix id="28">
+    <string>ah</string>
+  </suffix>
+  <suffix id="29">
+    <string>ath</string>
+  </suffix>
+  <suffix id="30">
+    <string>avel</string>
+  </suffix>
+  <suffix id="31">
+    <string>brar</string>
+  </suffix>
+  <suffix id="32">
+    <string>abrar</string>
+  </suffix>
+  <suffix id="33">
+    <string>ibrar</string>
+  </suffix>
+  <suffix id="34">
+    <string>dar</string>
+  </suffix>
+  <suffix id="35">
+    <string>adar</string>
+  </suffix>
+  <suffix id="36">
+    <string>odar</string>
+  </suffix>
+  <suffix id="37">
+    <string>deth</string>
+  </suffix>
+  <suffix id="38">
+    <string>eath</string>
+  </suffix>
+  <suffix id="39">
+    <string>eth</string>
+  </suffix>
+  <suffix id="40">
+    <string>dre</string>
+  </suffix>
+  <suffix id="41">
+    <string>drim</string>
+  </suffix>
+  <suffix id="42">
+    <string>drimme</string>
+  </suffix>
+  <suffix id="43">
+    <string>udrim</string>
+  </suffix>
+  <suffix id="44">
+    <string>dul</string>
+  </suffix>
+  <suffix id="45">
+    <string>ean</string>
+  </suffix>
+  <suffix id="46">
+    <string>el</string>
+  </suffix>
+  <suffix id="47">
+    <string>ele</string>
+  </suffix>
+  <suffix id="48">
+    <string>ela</string>
+  </suffix>
+  <suffix id="49">
+    <string>emar</string>
+  </suffix>
+  <suffix id="50">
+    <string>en</string>
+  </suffix>
+  <suffix id="51">
+    <string>er</string>
+  </suffix>
+  <suffix id="52">
+    <string>erl</string>
+  </suffix>
+  <suffix id="53">
+    <string>ern</string>
+  </suffix>
+  <suffix id="54">
+    <string>ess</string>
+  </suffix>
+  <suffix id="55">
+    <string>esti</string>
+  </suffix>
+  <suffix id="56">
+    <string>evar</string>
+  </suffix>
+  <suffix id="57">
+    <string>fel</string>
+  </suffix>
+  <suffix id="58">
+    <string>afel</string>
+  </suffix>
+  <suffix id="59">
+    <string>efel</string>
+  </suffix>
+  <suffix id="60">
+    <string>hal</string>
+  </suffix>
+  <suffix id="61">
+    <string>ahal</string>
+  </suffix>
+  <suffix id="62">
+    <string>ihal</string>
+  </suffix>
+  <suffix id="63">
+    <string>har</string>
+  </suffix>
+  <suffix id="64">
+    <string>ihar</string>
+  </suffix>
+  <suffix id="65">
+    <string>uhar</string>
+  </suffix>
+  <suffix id="66">
+    <string>hel</string>
+  </suffix>
+  <suffix id="67">
+    <string>ahel</string>
+  </suffix>
+  <suffix id="68">
+    <string>ihel</string>
+  </suffix>
+  <suffix id="69">
+    <string>ian</string>
+  </suffix>
+  <suffix id="70">
+    <string>ianna</string>
+  </suffix>
+  <suffix id="71">
+    <string>ia</string>
+  </suffix>
+  <suffix id="72">
+    <string>ii</string>
+  </suffix>
+  <suffix id="73">
+    <string>ion</string>
+  </suffix>
+  <suffix id="74">
+    <string>iat</string>
+  </suffix>
+  <suffix id="75">
+    <string>ik</string>
+  </suffix>
+  <suffix id="76">
+    <string>il</string>
+  </suffix>
+  <suffix id="77">
+    <string>iel</string>
+  </suffix>
+  <suffix id="78">
+    <string>ila</string>
+  </suffix>
+  <suffix id="79">
+    <string>lie</string>
+  </suffix>
+  <suffix id="80">
+    <string>im</string>
+  </suffix>
+  <suffix id="81">
+    <string>in</string>
+  </suffix>
+  <suffix id="82">
+    <string>inar</string>
+  </suffix>
+  <suffix id="83">
+    <string>ine</string>
+  </suffix>
+  <suffix id="84">
+    <string>ir</string>
+  </suffix>
+  <suffix id="85">
+    <string>ira</string>
+  </suffix>
+  <suffix id="86">
+    <string>ire</string>
+  </suffix>
+  <suffix id="87">
+    <string>is</string>
+  </suffix>
+  <suffix id="88">
+    <string>iss</string>
+  </suffix>
+  <suffix id="89">
+    <string>ist</string>
+  </suffix>
+  <suffix id="90">
+    <string>ith</string>
+  </suffix>
+  <suffix id="91">
+    <string>lath</string>
+  </suffix>
+  <suffix id="92">
+    <string>lith</string>
+  </suffix>
+  <suffix id="93">
+    <string>lyth</string>
+  </suffix>
+  <suffix id="94">
+    <string>kash</string>
+  </suffix>
+  <suffix id="95">
+    <string>ashk</string>
+  </suffix>
+  <suffix id="96">
+    <string>okash</string>
+  </suffix>
+  <suffix id="97">
+    <string>ki</string>
+  </suffix>
+  <suffix id="98">
+    <string>lan</string>
+  </suffix>
+  <suffix id="99">
+    <string>lanna</string>
+  </suffix>
+  <suffix id="100">
+    <string>lean</string>
+  </suffix>
+  <suffix id="101">
+    <string>olan</string>
+  </suffix>
+  <suffix id="102">
+    <string>ola</string>
+  </suffix>
+  <suffix id="103">
+    <string>lam</string>
+  </suffix>
+  <suffix id="104">
+    <string>ilam</string>
+  </suffix>
+  <suffix id="105">
+    <string>ulam</string>
+  </suffix>
+  <suffix id="106">
+    <string>lar</string>
+  </suffix>
+  <suffix id="107">
+    <string>lirr</string>
+  </suffix>
+  <suffix id="108">
+    <string>las</string>
+  </suffix>
+  <suffix id="109">
+    <string>lian</string>
+  </suffix>
+  <suffix id="110">
+    <string>lia</string>
+  </suffix>
+  <suffix id="111">
+    <string>lis</string>
+  </suffix>
+  <suffix id="112">
+    <string>elis</string>
+  </suffix>
+  <suffix id="113">
+    <string>lys</string>
+  </suffix>
+  <suffix id="114">
+    <string>lon</string>
+  </suffix>
+  <suffix id="115">
+    <string>ellon</string>
+  </suffix>
+  <suffix id="116">
+    <string>lyn</string>
+  </suffix>
+  <suffix id="117">
+    <string>llinn</string>
+  </suffix>
+  <suffix id="118">
+    <string>lihn</string>
+  </suffix>
+  <suffix id="119">
+    <string>mah</string>
+  </suffix>
+  <suffix id="120">
+    <string>ma</string>
+  </suffix>
+  <suffix id="121">
+    <string>mahs</string>
+  </suffix>
+  <suffix id="122">
+    <string>mil</string>
+  </suffix>
+  <suffix id="123">
+    <string>imil</string>
+  </suffix>
+  <suffix id="124">
+    <string>umil</string>
+  </suffix>
+  <suffix id="125">
+    <string>mus</string>
+  </suffix>
+  <suffix id="126">
+    <string>nal</string>
+  </suffix>
+  <suffix id="127">
+    <string>inal</string>
+  </suffix>
+  <suffix id="128">
+    <string>onal</string>
+  </suffix>
+  <suffix id="129">
+    <string>nes</string>
+  </suffix>
+  <suffix id="130">
+    <string>nin</string>
+  </suffix>
+  <suffix id="131">
+    <string>nine</string>
+  </suffix>
+  <suffix id="132">
+    <string>nyn</string>
+  </suffix>
+  <suffix id="133">
+    <string>nis</string>
+  </suffix>
+  <suffix id="134">
+    <string>anis</string>
+  </suffix>
+  <suffix id="135">
+    <string>on</string>
+  </suffix>
+  <suffix id="136">
+    <string>onna</string>
+  </suffix>
+  <suffix id="137">
+    <string>or</string>
+  </suffix>
+  <suffix id="138">
+    <string>oro</string>
+  </suffix>
+  <suffix id="139">
+    <string>oth</string>
+  </suffix>
+  <suffix id="140">
+    <string>othi</string>
+  </suffix>
+  <suffix id="141">
+    <string>que</string>
+  </suffix>
+  <suffix id="142">
+    <string>quis</string>
+  </suffix>
+  <suffix id="143">
+    <string>rah</string>
+  </suffix>
+  <suffix id="144">
+    <string>rae</string>
+  </suffix>
+  <suffix id="145">
+    <string>raee</string>
+  </suffix>
+  <suffix id="146">
+    <string>rad</string>
+  </suffix>
+  <suffix id="147">
+    <string>rahd</string>
+  </suffix>
+  <suffix id="148">
+    <string>rail</string>
+  </suffix>
+  <suffix id="149">
+    <string>ria</string>
+  </suffix>
+  <suffix id="150">
+    <string>aral</string>
+  </suffix>
+  <suffix id="151">
+    <string>ral</string>
+  </suffix>
+  <suffix id="152">
+    <string>ryl</string>
+  </suffix>
+  <suffix id="153">
+    <string>ran</string>
+  </suffix>
+  <suffix id="154">
+    <string>re</string>
+  </suffix>
+  <suffix id="155">
+    <string>reen</string>
+  </suffix>
+  <suffix id="156">
+    <string>reth</string>
+  </suffix>
+  <suffix id="157">
+    <string>rath</string>
+  </suffix>
+  <suffix id="158">
+    <string>ro</string>
+  </suffix>
+  <suffix id="159">
+    <string>ri</string>
+  </suffix>
+  <suffix id="160">
+    <string>ron</string>
+  </suffix>
+  <suffix id="161">
+    <string>ruil</string>
+  </suffix>
+  <suffix id="162">
+    <string>aruil</string>
+  </suffix>
+  <suffix id="163">
+    <string>eruil</string>
+  </suffix>
+  <suffix id="164">
+    <string>sal</string>
+  </suffix>
+  <suffix id="165">
+    <string>isal</string>
+  </suffix>
+  <suffix id="166">
+    <string>sali</string>
+  </suffix>
+  <suffix id="167">
+    <string>san</string>
+  </suffix>
+  <suffix id="168">
+    <string>sar</string>
+  </suffix>
+  <suffix id="169">
+    <string>asar</string>
+  </suffix>
+  <suffix id="170">
+    <string>isar</string>
+  </suffix>
+  <suffix id="171">
+    <string>sel</string>
+  </suffix>
+  <suffix id="172">
+    <string>asel</string>
+  </suffix>
+  <suffix id="173">
+    <string>isel</string>
+  </suffix>
+  <suffix id="174">
+    <string>sha</string>
+  </suffix>
+  <suffix id="175">
+    <string>she</string>
+  </suffix>
+  <suffix id="176">
+    <string>shor</string>
+  </suffix>
+  <suffix id="177">
+    <string>spar</string>
+  </suffix>
+  <suffix id="178">
+    <string>tae</string>
+  </suffix>
+  <suffix id="179">
+    <string>itae</string>
+  </suffix>
+  <suffix id="180">
+    <string>tas</string>
+  </suffix>
+  <suffix id="181">
+    <string>itas</string>
+  </suffix>
+  <suffix id="182">
+    <string>ten</string>
+  </suffix>
+  <suffix id="183">
+    <string>iten</string>
+  </suffix>
+  <suffix id="184">
+    <string>thal</string>
+  </suffix>
+  <suffix id="185">
+    <string>tha</string>
+  </suffix>
+  <suffix id="186">
+    <string>ethal</string>
+  </suffix>
+  <suffix id="187">
+    <string>etha</string>
+  </suffix>
+  <suffix id="188">
+    <string>thar</string>
+  </suffix>
+  <suffix id="189">
+    <string>ethar</string>
+  </suffix>
+  <suffix id="190">
+    <string>ithar</string>
+  </suffix>
+  <suffix id="191">
+    <string>ther</string>
+  </suffix>
+  <suffix id="192">
+    <string>ather</string>
+  </suffix>
+  <suffix id="193">
+    <string>thir</string>
+  </suffix>
+  <suffix id="194">
+    <string>thi</string>
+  </suffix>
+  <suffix id="195">
+    <string>ethil</string>
+  </suffix>
+  <suffix id="196">
+    <string>thil</string>
+  </suffix>
+  <suffix id="197">
+    <string>thus</string>
+  </suffix>
+  <suffix id="198">
+    <string>thas</string>
+  </suffix>
+  <suffix id="199">
+    <string>aethus</string>
+  </suffix>
+  <suffix id="200">
+    <string>aethas</string>
+  </suffix>
+  <suffix id="201">
+    <string>ti</string>
+  </suffix>
+  <suffix id="202">
+    <string>eti</string>
+  </suffix>
+  <suffix id="203">
+    <string>til</string>
+  </suffix>
+  <suffix id="204">
+    <string>tril</string>
+  </suffix>
+  <suffix id="205">
+    <string>tria</string>
+  </suffix>
+  <suffix id="206">
+    <string>atri</string>
+  </suffix>
+  <suffix id="207">
+    <string>atril</string>
+  </suffix>
+  <suffix id="208">
+    <string>atria</string>
+  </suffix>
+  <suffix id="209">
+    <string>ual</string>
+  </suffix>
+  <suffix id="210">
+    <string>lua</string>
+  </suffix>
+  <suffix id="211">
+    <string>uath</string>
+  </suffix>
+  <suffix id="212">
+    <string>luth</string>
+  </suffix>
+  <suffix id="213">
+    <string>uth</string>
+  </suffix>
+  <suffix id="214">
+    <string>us</string>
+  </suffix>
+  <suffix id="215">
+    <string>ua</string>
+  </suffix>
+  <suffix id="216">
+    <string>van</string>
+  </suffix>
+  <suffix id="217">
+    <string>vanna</string>
+  </suffix>
+  <suffix id="218">
+    <string>var</string>
+  </suffix>
+  <suffix id="219">
+    <string>vara</string>
+  </suffix>
+  <suffix id="220">
+    <string>avar</string>
+  </suffix>
+  <suffix id="221">
+    <string>avara</string>
+  </suffix>
+  <suffix id="222">
+    <string>vain</string>
+  </suffix>
+  <suffix id="223">
+    <string>avain</string>
+  </suffix>
+  <suffix id="224">
+    <string>via</string>
+  </suffix>
+  <suffix id="225">
+    <string>avia</string>
+  </suffix>
+  <suffix id="226">
+    <string>vin</string>
+  </suffix>
+  <suffix id="227">
+    <string>avin</string>
+  </suffix>
+  <suffix id="228">
+    <string>wyn</string>
+  </suffix>
+  <suffix id="229">
+    <string>ya</string>
+  </suffix>
+  <suffix id="230">
+    <string>yr</string>
+  </suffix>
+  <suffix id="231">
+    <string>yn</string>
+  </suffix>
+  <suffix id="232">
+    <string>yth</string>
+  </suffix>
+  <suffix id="233">
+    <string>zair</string>
+  </suffix>
+  <suffix id="234">
+    <string>zara</string>
+  </suffix>
+  <suffix id="235">
+    <string>azair</string>
+  </suffix>
+  <suffix id="236">
+    <string>ezara</string>
+  </suffix>
+</suffixes>

@@ -18,6 +18,8 @@
     <None Remove="images\icon.png" />
     <None Remove="images\mainLogo.png" />
     <None Remove="images\orc1.png" />
+    <None Remove="resources\preElf.xml" />
+    <None Remove="resources\sufElf.xml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +36,8 @@
     <Content Include="images\horde2.png" />
     <Content Include="images\icon.png" />
     <Content Include="images\orc1.png" />
+    <Content Include="resources\preElf.xml" />
+    <Content Include="resources\sufElf.xml" />
   </ItemGroup>
 
 </Project>

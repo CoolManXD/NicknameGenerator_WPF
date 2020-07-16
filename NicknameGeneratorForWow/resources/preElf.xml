@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefixes>
+  <prefix id="1">
+    <string>Ael</string>
+  </prefix>
+  <prefix id="2">
+    <string>Aer</string>
+  </prefix>
+  <prefix id="3">
+    <string>Af</string>
+  </prefix>
+  <prefix id="4">
+    <string>Ah</string>
+  </prefix>
+  <prefix id="5">
+    <string>Al</string>
+  </prefix>
+  <prefix id="6">
+    <string>Am</string>
+  </prefix>
+  <prefix id="7">
+    <string>Ama</string>
+  </prefix>
+  <prefix id="8">
+    <string>An</string>
+  </prefix>
+  <prefix id="9">
+    <string>Ang</string>
+  </prefix>
+  <prefix id="10">
+    <string>Ansr</string>
+  </prefix>
+  <prefix id="11">
+    <string>Ar</string>
+  </prefix>
+  <prefix id="12">
+    <string>Arm</string>
+  </prefix>
+  <prefix id="13">
+    <string>Aza</string>
+  </prefix>
+  <prefix id="14">
+    <string>Bael</string>
+  </prefix>
+  <prefix id="15">
+    <string>Bes</string>
+  </prefix>
+  <prefix id="16">
+    <string>Cael</string>
+  </prefix>
+  <prefix id="17">
+    <string>Cal</string>
+  </prefix>
+  <prefix id="18">
+    <string>Cas</string>
+  </prefix>
+  <prefix id="19">
+    <string>Cla</string>
+  </prefix>
+  <prefix id="20">
+    <string>Cor</string>
+  </prefix>
+  <prefix id="21">
+    <string>Cy</string>
+  </prefix>
+  <prefix id="22">
+    <string>Dae</string>
+  </prefix>
+  <prefix id="23">
+    <string>Dho</string>
+  </prefix>
+  <prefix id="24">
+    <string>Dre</string>
+  </prefix>
+  <prefix id="25">
+    <string>Du</string>
+  </prefix>
+  <prefix id="26">
+    <string>Eil</string>
+  </prefix>
+  <prefix id="27">
+    <string>Eir</string>
+  </prefix>
+  <prefix id="28">
+    <string>El</string>
+  </prefix>
+  <prefix id="29">
+    <string>Er</string>
+  </prefix>
+  <prefix id="30">
+    <string>Ev</string>
+  </prefix>
+  <prefix id="31">
+    <string>Fera</string>
+  </prefix>
+  <prefix id="32">
+    <string>Fi</string>
+  </prefix>
+  <prefix id="33">
+    <string>Fir</string>
+  </prefix>
+  <prefix id="34">
+    <string>Fis</string>
+  </prefix>
+  <prefix id="35">
+    <string>Gael</string>
+  </prefix>
+  <prefix id="36">
+    <string>Gar</string>
+  </prefix>
+  <prefix id="37">
+    <string>Gil</string>
+  </prefix>
+  <prefix id="38">
+    <string>Ha</string>
+  </prefix>
+  <prefix id="39">
+    <string>Hu</string>
+  </prefix>
+  <prefix id="40">
+    <string>Ia</string>
+  </prefix>
+  <prefix id="41">
+    <string>Il</string>
+  </prefix>
+  <prefix id="42">
+    <string>Ja</string>
+  </prefix>
+  <prefix id="43">
+    <string>Jar</string>
+  </prefix>
+  <prefix id="44">
+    <string>Ka</string>
+  </prefix>
+  <prefix id="45">
+    <string>Kan</string>
+  </prefix>
+  <prefix id="46">
+    <string>Ker</string>
+  </prefix>
+  <prefix id="47">
+    <string>Keth</string>
+  </prefix>
+  <prefix id="48">
+    <string>Koeh</string>
+  </prefix>
+  <prefix id="49">
+    <string>Kor</string>
+  </prefix>
+  <prefix id="50">
+    <string>Ky</string>
+  </prefix>
+  <prefix id="51">
+    <string>La</string>
+  </prefix>
+  <prefix id="52">
+    <string>Laf</string>
+  </prefix>
+  <prefix id="53">
+    <string>Lam</string>
+  </prefix>
+  <prefix id="54">
+    <string>Lue</string>
+  </prefix>
+  <prefix id="55">
+    <string>Ly</string>
+  </prefix>
+  <prefix id="56">
+    <string>Mai</string>
+  </prefix>
+  <prefix id="57">
+    <string>Mal</string>
+  </prefix>
+  <prefix id="58">
+    <string>Mara</string>
+  </prefix>
+  <prefix id="59">
+    <string>My</string>
+  </prefix>
+  <prefix id="60">
+    <string>Na</string>
+  </prefix>
+  <prefix id="61">
+    <string>Nai</string>
+  </prefix>
+  <prefix id="62">
+    <string>Nim</string>
+  </prefix>
+  <prefix id="63">
+    <string>Nu</string>
+  </prefix>
+  <prefix id="64">
+    <string>Ny</string>
+  </prefix>
+  <prefix id="65">
+    <string>Py</string>
+  </prefix>
+  <prefix id="66">
+    <string>Raer</string>
+  </prefix>
+  <prefix id="67">
+    <string>Re</string>
+  </prefix>
+  <prefix id="68">
+    <string>Ren</string>
+  </prefix>
+  <prefix id="69">
+    <string>Rhy</string>
+  </prefix>
+  <prefix id="70">
+    <string>Ry</string>
+  </prefix>
+  <prefix id="71">
+    <string>Ru</string>
+  </prefix>
+  <prefix id="72">
+    <string>Rua</string>
+  </prefix>
+  <prefix id="73">
+    <string>Rum</string>
+  </prefix>
+  <prefix id="74">
+    <string>Rid</string>
+  </prefix>
+  <prefix id="75">
+    <string>Sae</string>
+  </prefix>
+  <prefix id="76">
+    <string>Seh</string>
+  </prefix>
+  <prefix id="77">
+    <string>Sel</string>
+  </prefix>
+  <prefix id="78">
+    <string>Sha</string>
+  </prefix>
+  <prefix id="79">
+    <string>She</string>
+  </prefix>
+  <prefix id="80">
+    <string>Si</string>
+  </prefix>
+  <prefix id="81">
+    <string>Sim</string>
+  </prefix>
+  <prefix id="82">
+    <string>Sol</string>
+  </prefix>
+  <prefix id="83">
+    <string>Sum</string>
+  </prefix>
+  <prefix id="84">
+    <string>Syl</string>
+  </prefix>
+  <prefix id="85">
+    <string>Ta</string>
+  </prefix>
+  <prefix id="86">
+    <string>Tahl</string>
+  </prefix>
+  <prefix id="87">
+    <string>Tha</string>
+  </prefix>
+  <prefix id="88">
+    <string>Tho</string>
+  </prefix>
+  <prefix id="89">
+    <string>Ther</string>
+  </prefix>
+  <prefix id="90">
+    <string>Thro</string>
+  </prefix>
+  <prefix id="91">
+    <string>Tia</string>
+  </prefix>
+  <prefix id="92">
+    <string>Tra</string>
+  </prefix>
+  <prefix id="93">
+    <string>Ty</string>
+  </prefix>
+  <prefix id="94">
+    <string>Try</string>
+  </prefix>
+  <prefix id="95">
+    <string>Uth</string>
+  </prefix>
+  <prefix id="96">
+    <string>Ver</string>
+  </prefix>
+  <prefix id="97">
+    <string>Vil</string>
+  </prefix>
+  <prefix id="98">
+    <string>Von</string>
+  </prefix>
+  <prefix id="99">
+    <string>Ya</string>
+  </prefix>
+  <prefix id="100">
+    <string>Za</string>
+  </prefix>
+  <prefix id="101">
+    <string>Zy</string>
+  </prefix>
+</prefixes>

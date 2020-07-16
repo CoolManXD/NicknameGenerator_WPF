@@ -128,8 +128,10 @@
             <Viewbox Grid.Row="0" VerticalAlignment="Bottom">
                 <StackPanel Margin="0,0,5,5">
 
-                    <TextBox x:Name="outputText" Width="75" IsReadOnly="True" Style="{StaticResource OutputDataText}"></TextBox>
-                    <Button x:Name="GenerateButton" Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}"/>
+                    <TextBox x:Name="outputText" Width="75" IsReadOnly="True" Style="{StaticResource OutputDataText}"
+                             Text="{Binding OutputNickname, Mode=OneWay}"/>
+                    <Button x:Name="GenerateButton" Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}" 
+                            Command="{Binding GenerateCommand}" CommandParameter="{Binding CurrentData}"/>
 
                 </StackPanel>
             </Viewbox>
