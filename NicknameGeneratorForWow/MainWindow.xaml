@@ -59,6 +59,9 @@
                 </Trigger>
             </ControlTemplate.Triggers>
         </ControlTemplate>
+        
+        <!-- Конвертор для расы-->
+        <local:RaceConverter x:Key="raceConvertor" />
 
     </Window.Resources>
 
@@ -69,7 +72,7 @@
         </Grid.ColumnDefinitions>
 
 
-        <Grid  Grid.Column="0" DataContext="{Binding CurrentData}">
+        <Grid  Grid.Column="0" >
             
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.2*"></RowDefinition>
@@ -85,15 +88,17 @@
             <Viewbox Grid.Row="1" HorizontalAlignment="Left" Margin="15,0,0,0" >
                 <GroupBox Header="Your choise" Style="{StaticResource RadioButtonText}">
                     <StackPanel>
-                        <RadioButton x:Name="orcChoice" Margin="5,5,5,5" IsChecked="True">Orc</RadioButton>
-                        <RadioButton x:Name="elfChoice" Margin="5,5,5,5" >Elf</RadioButton>
+                        <RadioButton IsChecked="{Binding Race, Converter={StaticResource raceConvertor}, ConverterParameter=0, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                     x:Name="orcChoice" Margin="5,5,5,5" Content="Orc"/>
+                        <RadioButton IsChecked="{Binding Race, Converter={StaticResource raceConvertor}, ConverterParameter=1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                     x:Name="elfChoice" Margin="5,5,5,5" Content="Elf"/>
                     </StackPanel>
                 </GroupBox>
             </Viewbox>
 
             <!-- Параметры для генерации никнейма-->
             <Viewbox Grid.Row="2">
-                <StackPanel Margin="5,0,0,0">
+                <StackPanel Margin="5,0,0,0" DataContext="{Binding CurrentData}">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="0 0 5 0" Style="{StaticResource InputDataText}">The first letter:</TextBlock>
                         <TextBox MaxLength="1" Width="15" Style="{StaticResource InputDataText}" 
