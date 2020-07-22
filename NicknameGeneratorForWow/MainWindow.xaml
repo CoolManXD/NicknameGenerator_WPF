@@ -136,7 +136,7 @@
                     <TextBox x:Name="outputText" Width="75" IsReadOnly="True" Style="{StaticResource OutputDataText}"
                              Text="{Binding OutputNickname, Mode=OneWay}"/>
                     <Button x:Name="GenerateButton" Margin="0,3,0,0" Template="{StaticResource ButtonTemplate}" 
-                            Command="{Binding GenerateCommand}" CommandParameter="{Binding CurrentData}"/>
+                            CommandParameter="{Binding CurrentData}" Command="{Binding GenerateCommand}" />
 
                 </StackPanel>
             </Viewbox>

@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefixes>
+  <prefix id="1">
+    <string>Az</string>
+  </prefix>
+  <prefix id="2">
+    <string>Afh</string>
+  </prefix>
+  <prefix id="3">
+    <string>Atan</string>
+  </prefix>
+  <prefix id="4">
+    <string>Golf</string>
+  </prefix>
+  <prefix id="5">
+    <string>Gf</string>
+  </prefix>
+  <prefix id="6">
+    <string>Gol</string>
+  </prefix>
+  <prefix id="7">
+    <string>Grish</string>
+  </prefix>
+  <prefix id="8">
+    <string>Gr</string>
+  </prefix>
+  <prefix id="9">
+    <string>Gorb</string>
+  </prefix>
+  <prefix id="10">
+    <string>Gor</string>
+  </prefix>
+  <prefix id="11">
+    <string>Gl</string>
+  </prefix>
+  <prefix id="12">
+    <string>Gaut</string>
+  </prefix>
+  <prefix id="13">
+    <string>Ger</string>
+  </prefix>
+  <prefix id="14">
+    <string>Grah</string>
+  </prefix>
+  <prefix id="15">
+    <string>Gar</string>
+  </prefix>
+  <prefix id="16">
+    <string>Bolg</string>
+  </prefix>
+  <prefix id="17">
+    <string>Bol</string>
+  </prefix>
+  <prefix id="18">
+    <string>Binch</string>
+  </prefix>
+  <prefix id="19">
+    <string>Bin</string>
+  </prefix>
+  <prefix id="20">
+    <string>Bab</string>
+  </prefix>
+  <prefix id="21">
+    <string>Bir</string>
+  </prefix>
+  <prefix id="22">
+    <string>Bol</string>
+  </prefix>
+  <prefix id="23">
+    <string>Borg</string>
+  </prefix>
+  <prefix id="24">
+    <string>Ugl</string>
+  </prefix>
+  <prefix id="25">
+    <string>Ug</string>
+  </prefix>
+  <prefix id="26">
+    <string>Und</string>
+  </prefix>
+  <prefix id="27">
+    <string>Ufth</string>
+  </prefix>
+  <prefix id="28">
+    <string>Uf</string>
+  </prefix>
+  <prefix id="29">
+    <string>Umf</string>
+  </prefix>
+  <prefix id="30">
+    <string>Urth</string>
+  </prefix>
+  <prefix id="31">
+    <string>Ur</string>
+  </prefix>
+  <prefix id="32">
+    <string>Un</string>
+  </prefix>
+  <prefix id="33">
+    <string>Ukh</string>
+  </prefix>
+  <prefix id="34">
+    <string>Utan</string>
+  </prefix>
+  <prefix id="35">
+    <string>Unk</string>
+  </prefix>
+  <prefix id="36">
+    <string>Ufth</string>
+  </prefix>
+  <prefix id="37">
+    <string>Lugd</string>
+  </prefix>
+  <prefix id="38">
+    <string>Lug</string>
+  </prefix>
+  <prefix id="39">
+    <string>Lagd</string>
+  </prefix>
+  <prefix id="40">
+    <string>Lag</string>
+  </prefix>
+  <prefix id="41">
+    <string>Lei</string>
+  </prefix>
+  <prefix id="42">
+    <string>Lah</string>
+  </prefix>
+  <prefix id="43">
+    <string>Mauh</string>
+  </prefix>
+  <prefix id="44">
+    <string>Mauh</string>
+  </prefix>
+  <prefix id="45">
+    <string>Muzg</string>
+  </prefix>
+  <prefix id="46">
+    <string>Muz</string>
+  </prefix>
+  <prefix id="47">
+    <string>Shag</string>
+  </prefix>
+  <prefix id="48">
+    <string>Sha</string>
+  </prefix>
+  <prefix id="49">
+    <string>Radb</string>
+  </prefix>
+  <prefix id="50">
+    <string>Rifz</string>
+  </prefix>
+  <prefix id="51">
+    <string>Rif</string>
+  </prefix>
+  <prefix id="52">
+    <string>Rivc</string>
+  </prefix>
+  <prefix id="53">
+    <string>Rick</string>
+  </prefix>
+  <prefix id="54">
+    <string>Ris</string>
+  </prefix>
+  <prefix id="55">
+    <string>Pryp</string>
+  </prefix>
+  <prefix id="56">
+    <string>Pilh</string>
+  </prefix>
+  <prefix id="57">
+    <string>Pitl</string>
+  </prefix>
+  <prefix id="58">
+    <string>Pit</string>
+  </prefix>
+  <prefix id="59">
+    <string>Pirk</string>
+  </prefix>
+  <prefix id="60">
+    <string>Pir</string>
+  </prefix>
+  <prefix id="61">
+    <string>Par</string>
+  </prefix>
+  <prefix id="62">
+    <string>Talh</string>
+  </prefix>
+  <prefix id="63">
+    <string>Tal</string>
+  </prefix>
+  <prefix id="64">
+    <string>Tser</string>
+  </prefix>
+  <prefix id="65">
+    <string>Tur</string>
+  </prefix>
+  <prefix id="66">
+    <string>Tu</string>
+  </prefix>
+  <prefix id="67">
+    <string>Tilg</string>
+  </prefix>
+  <prefix id="68">
+    <string>Ingh</string>
+  </prefix>
+  <prefix id="69">
+    <string>Ing</string>
+  </prefix>
+  <prefix id="70">
+    <string>Cuvr</string>
+  </prefix>
+  <prefix id="71">
+    <string>Cuv</string>
+  </prefix>
+  <prefix id="72">
+    <string>Shag</string>
+  </prefix>
+  <prefix id="73">
+    <string>Shug</string>
+  </prefix>
+  <prefix id="74">
+    <string>Skul</string>
+  </prefix>
+  <prefix id="75">
+    <string>Shu</string>
+  </prefix>
+  <prefix id="76">
+    <string>Stig</string>
+  </prefix>
+  <prefix id="77">
+    <string>Sar</string>
+  </prefix>
+  <prefix id="78">
+    <string>Syn</string>
+  </prefix>
+  <prefix id="79">
+    <string>Yar</string>
+  </prefix>
+  <prefix id="80">
+    <string>Shah</string>
+  </prefix>
+  <prefix id="81">
+    <string>Fr</string>
+  </prefix>
+  <prefix id="82">
+    <string>Fihz</string>
+  </prefix>
+  <prefix id="83">
+    <string>Fih</string>
+  </prefix>
+  <prefix id="84">
+    <string>Farg</string>
+  </prefix>
+  <prefix id="85">
+    <string>Far</string>
+  </prefix>
+  <prefix id="86">
+    <string>Fang</string>
+  </prefix>
+  <prefix id="87">
+    <string>Warh</string>
+  </prefix>
+  <prefix id="88">
+    <string>War</string>
+  </prefix>
+  <prefix id="89">
+    <string>Woh</string>
+  </prefix>
+  <prefix id="90">
+    <string>Har</string>
+  </prefix>
+  <prefix id="91">
+    <string>Hag</string>
+  </prefix>
+  <prefix id="92">
+    <string>Juc</string>
+  </prefix>
+  <prefix id="93">
+    <string>Jird</string>
+  </prefix>
+  <prefix id="94">
+    <string>Jir</string>
+  </prefix>
+  <prefix id="95">
+    <string>Irk</string>
+  </prefix>
+  <prefix id="96">
+    <string>Irg</string>
+  </prefix>
+  <prefix id="97">
+    <string>Iv</string>
+  </prefix>
+  <prefix id="98">
+    <string>Vad</string>
+  </prefix>
+  <prefix id="99">
+    <string>Vik</string>
+  </prefix>
+  <prefix id="100">
+    <string>Kil</string>
+  </prefix>
+  <prefix id="101">
+    <string>Kar</string>
+  </prefix>
+  <prefix id="102">
+    <string>Kh</string>
+  </prefix>
+  <prefix id="103">
+    <string>Nah</string>
+  </prefix>
+  <prefix id="104">
+    <string>Nar</string>
+  </prefix>
+  <prefix id="105">
+    <string>Har</string>
+  </prefix>
+  <prefix id="106">
+    <string>Hor</string>
+  </prefix>
+  <prefix id="107">
+    <string>Orc</string>
+  </prefix>
+  <prefix id="108">
+    <string>Oyr</string>
+  </prefix>
+  <prefix id="109">
+    <string>Dug</string>
+  </prefix>
+  <prefix id="110">
+    <string>Mih</string>
+  </prefix>
+  <prefix id="111">
+    <string>Tev</string>
+  </prefix>
+  <prefix id="112">
+    <string>Lash</string>
+  </prefix>
+  <prefix id="113">
+    <string>Deze</string>
+  </prefix>
+</prefixes>

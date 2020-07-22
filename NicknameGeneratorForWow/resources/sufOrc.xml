@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<suffixes>
+  <suffix id="1">
+    <string>bul</string>
+  </suffix>
+  <suffix id="2">
+    <string>og</string>
+  </suffix>
+  <suffix id="3">
+    <string>olg</string>
+  </suffix>
+  <suffix id="4">
+    <string>lg</string>
+  </suffix>
+  <suffix id="5">
+    <string>luk</string>
+  </suffix>
+  <suffix id="6">
+    <string>uk</string>
+  </suffix>
+  <suffix id="7">
+    <string>hnak</string>
+  </suffix>
+  <suffix id="8">
+    <string>nak</string>
+  </suffix>
+  <suffix id="9">
+    <string>dush</string>
+  </suffix>
+  <suffix id="10">
+    <string>ush</string>
+  </suffix>
+  <suffix id="11">
+    <string>hur</string>
+  </suffix>
+  <suffix id="12">
+    <string>ur</string>
+  </suffix>
+  <suffix id="13">
+    <string>bag</string>
+  </suffix>
+  <suffix id="14">
+    <string>ag</string>
+  </suffix>
+  <suffix id="15">
+    <string>rath</string>
+  </suffix>
+  <suffix id="16">
+    <string>hak</string>
+  </suffix>
+  <suffix id="17">
+    <string>ak</string>
+  </suffix>
+  <suffix id="18">
+    <string>bug</string>
+  </suffix>
+  <suffix id="19">
+    <string>ug</string>
+  </suffix>
+  <suffix id="20">
+    <string>duf</string>
+  </suffix>
+  <suffix id="21">
+    <string>uf</string>
+  </suffix>
+  <suffix id="22">
+    <string>gash</string>
+  </suffix>
+  <suffix id="23">
+    <string>ash</string>
+  </suffix>
+  <suffix id="24">
+    <string>arg</string>
+  </suffix>
+  <suffix id="25">
+    <string>rg</string>
+  </suffix>
+  <suffix id="26">
+    <string>hang</string>
+  </suffix>
+  <suffix id="27">
+    <string>ang</string>
+  </suffix>
+  <suffix id="28">
+    <string>ng</string>
+  </suffix>
+  <suffix id="29">
+    <string>rdum</string>
+  </suffix>
+  <suffix id="30">
+    <string>dum</string>
+  </suffix>
+  <suffix id="31">
+    <string>hur</string>
+  </suffix>
+  <suffix id="32">
+    <string>ur</string>
+  </suffix>
+  <suffix id="33">
+    <string>hak</string>
+  </suffix>
+  <suffix id="34">
+    <string>puk</string>
+  </suffix>
+  <suffix id="35">
+    <string>hak</string>
+  </suffix>
+  <suffix id="36">
+    <string>guk</string>
+  </suffix>
+  <suffix id="37">
+    <string>rop</string>
+  </suffix>
+  <suffix id="38">
+    <string>loch</string>
+  </suffix>
+  <suffix id="39">
+    <string>hich</string>
+  </suffix>
+  <suffix id="40">
+    <string>ich</string>
+  </suffix>
+  <suffix id="41">
+    <string>kuth</string>
+  </suffix>
+  <suffix id="42">
+    <string>uth</string>
+  </suffix>
+  <suffix id="43">
+    <string>look</string>
+  </suffix>
+  <suffix id="44">
+    <string>ok</string>
+  </suffix>
+  <suffix id="45">
+    <string>chukh</string>
+  </suffix>
+  <suffix id="46">
+    <string>ukh</string>
+  </suffix>
+  <suffix id="47">
+    <string>och</string>
+  </suffix>
+  <suffix id="48">
+    <string>grat</string>
+  </suffix>
+  <suffix id="49">
+    <string>rat</string>
+  </suffix>
+  <suffix id="50">
+    <string>hook</string>
+  </suffix>
+  <suffix id="51">
+    <string>zach</string>
+  </suffix>
+  <suffix id="52">
+    <string>ach</string>
+  </suffix>
+  <suffix id="53">
+    <string>cak</string>
+  </suffix>
+  <suffix id="54">
+    <string>zach</string>
+  </suffix>
+  <suffix id="55">
+    <string>shat</string>
+  </suffix>
+  <suffix id="56">
+    <string>hat</string>
+  </suffix>
+  <suffix id="57">
+    <string>chek</string>
+  </suffix>
+  <suffix id="58">
+    <string>hek</string>
+  </suffix>
+  <suffix id="59">
+    <string>duk</string>
+  </suffix>
+  <suffix id="60">
+    <string>tsuk</string>
+  </suffix>
+  <suffix id="61">
+    <string>suk</string>
+  </suffix>
+  <suffix id="62">
+    <string>ylch</string>
+  </suffix>
+  <suffix id="63">
+    <string>khak</string>
+  </suffix>
+  <suffix id="64">
+    <string>hook</string>
+  </suffix>
+  <suffix id="65">
+    <string>hack</string>
+  </suffix>
+  <suffix id="66">
+    <string>shuk</string>
+  </suffix>
+  <suffix id="67">
+    <string>hiz</string>
+  </suffix>
+  <suffix id="68">
+    <string>iz</string>
+  </suffix>
+  <suffix id="69">
+    <string>chak</string>
+  </suffix>
+  <suffix id="70">
+    <string>gan</string>
+  </suffix>
+  <suffix id="71">
+    <string>ldog</string>
+  </suffix>
+  <suffix id="72">
+    <string>dog</string>
+  </suffix>
+  <suffix id="73">
+    <string>rog</string>
+  </suffix>
+  <suffix id="74">
+    <string>rung</string>
+  </suffix>
+  <suffix id="75">
+    <string>ung</string>
+  </suffix>
+  <suffix id="76">
+    <string>igga</string>
+  </suffix>
+  <suffix id="77">
+    <string>rraf</string>
+  </suffix>
+  <suffix id="78">
+    <string>raf</string>
+  </suffix>
+  <suffix id="79">
+    <string>ngal</string>
+  </suffix>
+  <suffix id="80">
+    <string>gal</string>
+  </suffix>
+  <suffix id="81">
+    <string>gush</string>
+  </suffix>
+  <suffix id="82">
+    <string>ush</string>
+  </suffix>
+  <suffix id="83">
+    <string>nakh</string>
+  </suffix>
+  <suffix id="84">
+    <string>akh</string>
+  </suffix>
+  <suffix id="85">
+    <string>ihur</string>
+  </suffix>
+  <suffix id="86">
+    <string>hur</string>
+  </suffix>
+  <suffix id="87">
+    <string>rvag</string>
+  </suffix>
+  <suffix id="88">
+    <string>vag</string>
+  </suffix>
+  <suffix id="89">
+    <string>vrah</string>
+  </suffix>
+  <suffix id="90">
+    <string>rah</string>
+  </suffix>
+  <suffix id="91">
+    <string>rweg</string>
+  </suffix>
+  <suffix id="92">
+    <string>weg</string>
+  </suffix>
+  <suffix id="93">
+    <string>ragh</string>
+  </suffix>
+  <suffix id="94">
+    <string>arog</string>
+  </suffix>
+  <suffix id="95">
+    <string>ragh</string>
+  </suffix>
+  <suffix id="96">
+    <string>hmar</string>
+  </suffix>
+  <suffix id="97">
+    <string>mar</string>
+  </suffix>
+  <suffix id="98">
+    <string>dra</string>
+  </suffix>
+  <suffix id="99">
+    <string>rish</string>
+  </suffix>
+  <suffix id="100">
+    <string>shan</string>
+  </suffix>
+  <suffix id="101">
+    <string>vur</string>
+  </suffix>
+  <suffix id="102">
+    <string>idra</string>
+  </suffix>
+  <suffix id="103">
+    <string>woh</string>
+  </suffix>
+  <suffix id="104">
+    <string>lgur</string>
+  </suffix>
+  <suffix id="105">
+    <string>gur</string>
+  </suffix>
+  <suffix id="106">
+    <string>aeru</string>
+  </suffix>
+  <suffix id="107">
+    <string>rtu</string>
+  </suffix>
+  <suffix id="108">
+    <string>chai</string>
+  </suffix>
+  <suffix id="109">
+    <string>hai</string>
+  </suffix>
+  <suffix id="110">
+    <string>rhei</string>
+  </suffix>
+  <suffix id="111">
+    <string>hei</string>
+  </suffix>
+  <suffix id="112">
+    <string>rhin</string>
+  </suffix>
+  <suffix id="113">
+    <string>hin</string>
+  </suffix>
+  <suffix id="114">
+    <string>arch</string>
+  </suffix>
+  <suffix id="115">
+    <string>rch</string>
+  </suffix>
+  <suffix id="116">
+    <string>iho</string>
+  </suffix>
+  <suffix id="117">
+    <string>ghak</string>
+  </suffix>
+  <suffix id="118">
+    <string>ahak</string>
+  </suffix>
+  <suffix id="119">
+    <string>hgar</string>
+  </suffix>
+  <suffix id="120">
+    <string>rlag</string>
+  </suffix>
+  <suffix id="121">
+    <string>lag</string>
+  </suffix>
+  <suffix id="122">
+    <string>eweg</string>
+  </suffix>
+  <suffix id="123">
+    <string>fang</string>
+  </suffix>
+  <suffix id="124">
+    <string>fhak</string>
+  </suffix>
+  <suffix id="125">
+    <string>hash</string>
+  </suffix>
+  <suffix id="126">
+    <string>gfak</string>
+  </suffix>
+  <suffix id="127">
+    <string>gath</string>
+  </suffix>
+  <suffix id="128">
+    <string>roz</string>
+  </suffix>
+  <suffix id="129">
+    <string>forg</string>
+  </suffix>
+  <suffix id="130">
+    <string>tang</string>
+  </suffix>
+  <suffix id="131">
+    <string>ahur</string>
+  </suffix>
+  <suffix id="132">
+    <string>arra</string>
+  </suffix>
+  <suffix id="133">
+    <string>ync</string>
+  </suffix>
+  <suffix id="134">
+    <string>rtog</string>
+  </suffix>
+  <suffix id="135">
+    <string>ashi</string>
+  </suffix>
+</suffixes>

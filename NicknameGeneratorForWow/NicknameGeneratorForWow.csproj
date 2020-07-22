@@ -7,37 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\alliance.png" />
-    <None Remove="images\elf1.png" />
-    <None Remove="images\elf2.png" />
-    <None Remove="images\elfs.png" />
+    <None Remove="images\elf.png" />
     <None Remove="images\emblem_alliance.png" />
     <None Remove="images\emblem_horde.png" />
-    <None Remove="images\horde1.png" />
-    <None Remove="images\horde2.png" />
     <None Remove="images\icon.png" />
     <None Remove="images\mainLogo.png" />
-    <None Remove="images\orc1.png" />
+    <None Remove="images\orc.png" />
     <None Remove="resources\preElf.xml" />
+    <None Remove="resources\preOrc.xml" />
     <None Remove="resources\sufElf.xml" />
+    <None Remove="resources\sufOrc.xml" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\alliance.png" />
     <Content Include="images\emblem_alliance.png" />
     <Content Include="images\emblem_horde.png" />
     <Content Include="images\mainLogo.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\elf1.png" />
-    <Content Include="images\elf2.png" />
-    <Content Include="images\elfs.png" />
-    <Content Include="images\horde1.png" />
-    <Content Include="images\horde2.png" />
+    <Content Include="images\elf.png" />
     <Content Include="images\icon.png" />
-    <Content Include="images\orc1.png" />
+    <Content Include="images\orc.png" />
     <Content Include="resources\preElf.xml" />
+    <Content Include="resources\preOrc.xml" />
     <Content Include="resources\sufElf.xml" />
+    <Content Include="resources\sufOrc.xml" />
   </ItemGroup>
 
 </Project>

@@ -54,9 +54,8 @@ namespace NicknameGeneratorForWow
         {
             currentData = new GenerateData();
 
-            //Action<object> execute = obj => OutputNickname = new Generator().generateNickname(obj as GenerateData);
-            //Predicate<object> canExecuted = obj => (obj as GenerateData).IsValid;
-            //generateCommand = new RelayCommand(execute, canExecuted);
+            // Action<object> execute = obj => OutputNickname = new Generator().generateNickname(obj as GenerateData);
+            Predicate<object> canExecuted = obj => (obj as GenerateData).IsValid;
             Action<object> execute = obj =>
             {
                 switch (race)
@@ -69,7 +68,7 @@ namespace NicknameGeneratorForWow
                         break;
                 }
             };
-            generateCommand = new RelayCommand(execute);
+            generateCommand = new RelayCommand(execute, canExecuted);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

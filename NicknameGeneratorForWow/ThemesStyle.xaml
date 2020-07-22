@@ -45,11 +45,11 @@
     <Style x:Key="ImageWarriorThemeStyle" TargetType="{x:Type Image}">
         <Style.Triggers>
             <DataTrigger Binding="{Binding ElementName=orcChoice, Path=IsChecked}" Value="True">
-                <Setter Property="Source" Value="images/orc1.png"/>
+                <Setter Property="Source" Value="images/orc.png"/>
             </DataTrigger>
 
             <DataTrigger Binding="{Binding ElementName=elfChoice, Path=IsChecked}" Value="True">
-                <Setter Property="Source" Value="images/elf1.png"/>
+                <Setter Property="Source" Value="images/elf.png"/>
             </DataTrigger>
         </Style.Triggers>
     </Style>
