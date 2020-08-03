@@ -2,7 +2,8 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
- 
+using System.Text.RegularExpressions;
+
 namespace NicknameGeneratorForWow
 {
     public class GenerateData : INotifyPropertyChanged, IDataErrorInfo
@@ -25,9 +26,10 @@ namespace NicknameGeneratorForWow
             set
             {
                 firstLetter = char.ToUpper(value);
-                if (!char.IsLetter(value))
+                Regex check = new Regex(@"[A-Z]");
+                if (!check.IsMatch(firstLetter.ToString()))
                 {
-                    errors["FirstLetter"] = "must be letter";
+                    errors["FirstLetter"] = "must be latin letter";
                 }
                 else
                 {
